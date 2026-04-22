@@ -50,3 +50,25 @@ If you want to run this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/manav142003/your-repo-name.git](https://github.com/manav142003/your-repo-name.git)
+
+2. Navigate to the project directory:
+   
+   cd your-repo-name
+
+ 3. Install dependencies:
+    # For Node/React
+       npm install 
+    # OR For Python/Flask
+       pip install -r requirements.txt
+
+  4.   Set up Environment Variables:
+      Create a .env file in the root directory and add your specific variables:
+
+        PORT=8080
+        DB_URI=your_database_string
+       
+5. Run the application:
+   
+     npm start
+    # OR using Docker
+    docker-compose up --build
